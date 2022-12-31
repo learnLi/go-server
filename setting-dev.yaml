@@ -1,0 +1,16 @@
+name: "go-server"
+port: 8080
+
+
+logsAddress: "./logs/"
+
+mysql:
+  name: "root"
+  host: "127.0.0.1"
+  port: 3306
+  password: "123456"
+  dbName: "go_server"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
