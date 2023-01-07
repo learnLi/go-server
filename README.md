@@ -30,7 +30,7 @@ go get -u github.com/gin-gonic/gin
 
 > 编写一个基础gin程序
 
-```go
+```
 package main
 
 import "github.com/gin-gonic/gin"
@@ -97,4 +97,6 @@ type RedisConfig struct {
 }
 
 ```
+
+
 
